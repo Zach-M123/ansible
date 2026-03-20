@@ -20,7 +20,7 @@ configure_sudo() {
     echo "Configuring sudo for: $IP"
 
     # We use 'tee' to write to the protected directory and 'chmod' to set 0440 permissions
-    ssh -o StrictHostKeyChecking=no "$REMOTE_USER@$IP" \
+    ssh -t -o StrictHostKeyChecking=no "$REMOTE_USER@$IP" \
     "echo '$CONTENT' | sudo tee /etc/sudoers.d/zach > /dev/null && sudo chmod 0440 /etc/sudoers.d/zach"
 
     if [ $? -eq 0 ]; then
