@@ -16,9 +16,9 @@ HOSTS=(
 
 # User to log in as (change 'root' if needed)
 REMOTE_USERNAME="zach"
-SSH_KEY_PATH="~/.ssh/id_rsa.pub"
+SSH_KEY_PATH="/home/dutchman/.ssh/id_rsa.pub"
 
-echo "Starting SSH key distribution..."
+echo -e "${PURPLE}Starting SSH key distribution...${NC}"
 
 for IP in "${HOSTS[@]}"; do
     echo "---------------------------------------"
@@ -27,9 +27,9 @@ for IP in "${HOSTS[@]}"; do
     # Copy the key. -o StrictHostKeyChecking=no skips the 'yes/no' prompt
     ssh-copy-id -i ${SSH_KEY_PATH} -o StrictHostKeyChecking=no "${REMOTE_USERNAME}@${IP}"
     if [ $? -eq 0 ]; then
-        echo "${GREEN}Success: $IP${NC}"
+        echo -e "${GREEN}Success: ${IP}${NC}"
     else
-        echo "${RED}Failed: $IP${NC}"
+        echo -e "${RED}Failed: ${IP}${NC}"
     fi
 done
 
