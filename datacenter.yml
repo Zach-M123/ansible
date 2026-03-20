@@ -1,0 +1,60 @@
+all:
+  vars:
+    username: "zach"
+    password: "P@ssword123"
+  datacenter:
+    RedHat:
+      hosts:
+        - hostname: "redhat-1"
+          host: "192.168.122.105"
+          port: 22
+          device_type: "Linux"
+        - hostname: "redhat-2"
+          host: "192.168.122.25"
+          port: 22
+          device_type: "Linux"
+        - hostname: "redhat-3"
+          host: "192.168.122.122"
+          port: 22
+          device_type: "Linux"
+        - hostname: "redhat-4"
+          host: "192.168.122.176"
+          port: 22
+          device_type: "Linux"
+    Oracle:
+      hosts:
+        - hostname: "oracle-1"
+          host: "192.168.122.169"
+          port: 22
+          device_type: "Linux"
+        - hostname: "oracle-2"
+          host: "192.168.122.196"
+          port: 22
+          device_type: "Linux"
+        - hostname: "oracle-3"
+          host: "192.168.122.205"
+          port: 22
+          device_type: "Linux"
+        - hostname: "oracle-4"
+          host: "192.168.122.136"
+          port: 22
+          device_type: "Linux"
+    Ubuntu:
+      hosts:
+        - hostname: "ubuntu-1"
+          host: "192.168.122.141"
+          port: 22
+          device_type: "Linux"
+        - hostname: "ubuntu-2"
+          host: "192.168.122.213"
+          port: 22
+          device_type: "Linux"
+        - hostname: "ubuntu-3"
+          host: "192.168.122.61"
+          port: 22
+          device_type: "Linux"
+        - hostname: "ubuntu-4"
+          host: "192.168.122.242"
+          port: 22
+          device_type: "Linux"
+
