@@ -1,0 +1,84 @@
+2026-03-21 05:12:53,007 p=670152 u=dutchman n=ansible | redhat-2 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2026-03-21 05:12:53,011 p=670152 u=dutchman n=ansible | redhat-4 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2026-03-21 05:12:53,014 p=670152 u=dutchman n=ansible | redhat-1 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2026-03-21 05:12:53,018 p=670152 u=dutchman n=ansible | redhat-3 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2026-03-21 05:12:53,061 p=670152 u=dutchman n=ansible | oracle-1 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3.12"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2026-03-21 05:12:53,256 p=670152 u=dutchman n=ansible | ubuntu-1 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2026-03-21 05:12:53,311 p=670152 u=dutchman n=ansible | ubuntu-2 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2026-03-21 05:12:53,504 p=670152 u=dutchman n=ansible | ubuntu-3 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2026-03-21 05:12:53,532 p=670152 u=dutchman n=ansible | oracle-4 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3.12"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2026-03-21 05:12:53,534 p=670152 u=dutchman n=ansible | oracle-2 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3.12"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2026-03-21 05:12:53,534 p=670152 u=dutchman n=ansible | oracle-3 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3.12"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2026-03-21 05:12:53,545 p=670152 u=dutchman n=ansible | ubuntu-4 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": false,
+    "ping": "pong"
+}
